@@ -1,0 +1,9 @@
+[
+  { "name": "stringCol", "type": "string" },
+  { "name": "intCol", "type": "integer" },
+  { "name": "longCol", "type": "long" },
+  { "name": "doubleCol", "type": "double" },
+  { "name": "booleanCol", "type": "boolean" },
+  { "name": "dateCol", "type": "date" },
+  { "name": "timestampCol", "type": "timestamp" }
+]
