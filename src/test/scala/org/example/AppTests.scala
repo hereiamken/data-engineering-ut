@@ -13,7 +13,7 @@ class AppTests extends AnyFunSuite with BeforeAndAfterAll {
    */
   override def beforeAll(): Unit = {
     println("Starting SparkContext for the entire test suite...")
-    val _ = SparkContextCommon.sparkContext // Truy cập để kích hoạt lazy val SparkContext
+    val _ = SparkContextCommon.sparkContext
     println("SparkContext started.")
   }
 
